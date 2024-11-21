@@ -31,8 +31,8 @@ runs:
     - --apiKey
     - "${{ inputs.apiKey }}"
     - --apiKeySecret
-    - "${{ outputs.apiKeySecret }}"
+    - "${{ inputs.apiKeySecret }}"
     - --accessToken
-    - "${{ outputs.accessToken }}"
+    - "${{ inputs.accessToken }}"
     - --accessTokenSecret
-    - "${{ outputs.accessTokenSecret }}"
+    - "${{ inputs.accessTokenSecret }}"
