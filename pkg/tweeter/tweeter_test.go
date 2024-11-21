@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/PacktPublishing/Go-for-DevOps/chapter/9/pkg/tweeter"
+	"github.com/AlekseyTyurin/github-actions/pkg/tweeter"
 )
 
 func TestNew(t *testing.T) {

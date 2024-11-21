@@ -1,4 +1,4 @@
-module github.com/PacktPublishing/Go-for-DevOps/chapter/9
+module github.com/AlekseyTyurin/github-actions
 
 go 1.23
 
