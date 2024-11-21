@@ -1,4 +1,4 @@
-name: tweeter-authomation
+name: tweeter-automation
 on:
   push:
     tags:
@@ -50,7 +50,7 @@ jobs:
     permissions:
       contents: write
     needs: test
-    if: srartsWith(github.ref, 'refs/tags/v')
+    if: startsWith(github.ref, 'refs/tags/v')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
