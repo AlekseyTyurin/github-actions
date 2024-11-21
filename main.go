@@ -8,7 +8,7 @@ import (
 	"github.com/pkg/errors"
 	flag "github.com/spf13/pflag"
 
-	"github.com/PacktPublishing/Go-for-DevOps/chapter/9/pkg/tweeter"
+	"github.com/AlekseyTyurin/github-actions/pkg/tweeter"
 )
 
 var (
